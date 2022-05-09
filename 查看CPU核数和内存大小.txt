@@ -1,0 +1,7 @@
+cat /proc/cpuinfo   --查看CPU核数     cpu cores	: 1
+
+free -h   查看内存 （Mem:3.7G）              
+total        used        free      shared  buff/cache   available
+Mem:           3.7G 
+
+select * from INFORMATTION_SCHEMA.INNODB_TRX
